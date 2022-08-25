@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "classmap": [
+            "class_base"
+        ],
+        "files": [
+            "src/random.php"
+        ],
+        "psr-4": {
+            "Acme\\": "src",
+            "New_acme\\": "src2",
+            "TestTrait\\": "src3"
+        }
+    }
+}
